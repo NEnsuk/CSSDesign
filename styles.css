@@ -57,18 +57,20 @@ h1.head1{
     border-radius: 10px;
 }
 .pinkbox ul li{
-    text-indent: 15px;
-    margin-left: -15px;
+    text-indent: -2.6em;
+    margin-left: 1em;
     line-height: 30px;
     color: #4F182F;
+    list-style-type: none;
 }
 .grey{
     color: #797470;
 }
-li{
-    text-indent: 15px;
-    margin-left: -15px;
+ul li{
+    text-indent: -2.6em;
+    margin-left: 0em;
     line-height: 30px;
+    list-style-type: none;
 }
 h3{
     color: #874D66;
