@@ -121,3 +121,37 @@ td{
 .borderNone{
     border-bottom: none;
 }
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    .back_box{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+    }
+
+    img{
+        border-radius: 0px;
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    .body_contnt, .attribution{
+        color: #797470;
+        size: 16px;
+        text-align: left;
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      padding: 20px;
+    }
+}
